@@ -110,7 +110,7 @@ main {
 }
 
 .popular-posts a{
-border: 1px solid black;
+border: 1px solid #6b2e03;
 border-radius: 15%;
 padding: 2% 4%;
 position: absolute;
