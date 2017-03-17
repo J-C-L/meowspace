@@ -13,8 +13,15 @@ header a {
   color: #fdd2b4; /*salmon*/
 }
 
+a:visited{
+color: #43c07b; /*green*/
+  }
+
 a:hover {
-  color: #43c07b; /*green*/
+  color: #afb1b1;
+}
+a:hover::after {
+  content:"🐭"
 }
 
 header {
