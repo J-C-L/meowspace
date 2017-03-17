@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-
 * {
   font-family: "Indie Flower";
 }
@@ -67,6 +66,7 @@ main {
   width: 100%;
 }
 
+/*following 2 rule sets together create fade in of main-title  on page load*/
 .main-title h1 {
   -webkit-animation: fadein 4s;
 }
@@ -150,10 +150,16 @@ main {
   width: 100%;
 }
 
+.footer-for-background {
+  background-color: #fdd2b4; /*salmon*/
+  height:200px;
+}
+
 footer div {
+  display: inline-block;
   float:left;
-  margin-left: 10%;
-  margin-top: 30px;
+  padding-left: 10%;
+  padding-top: 30px;
   width:45%
 }
 
@@ -162,15 +168,11 @@ footer h4, footer, p {
 }
 
 footer nav {
+  float:right;
   margin-right: 20%;
   margin-top: 30px;
-  float:right;
 }
 
 footer ul{
-  margin-top: 0;
+  margin: 0;
 }
-
-/*footer {
-  background-size: 100% 500px;
-  background-color: #fdd2b4; /*salmon*/
