@@ -53,7 +53,8 @@ header h2 {
 header nav {
   margin-right: 7%;
   margin-top: 25px;
-  float:right;}
+  float:right;
+}
 
 header ul {
 margin: 0 ;
@@ -75,7 +76,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fdd2b4;
+  color: #fdd2b4; /*salmon*/
   font-size: 2.5em;
   height:450px;
   line-height: 350px;
@@ -123,29 +124,58 @@ width: 50%;
 bottom: 10%;
 }
 
+.join-club{
+  height:200px;
+  padding: 4% 0;
+  border-top: 2px solid #6b2e03;
+  width:100%;
+}
 
 
 .join-club div{
   float:left;
   max-width: 40%;
+  padding-left: 7%;
+  text-align: center;
 }
 
 .join-club img{
   float:right;
   max-width: 40%;
+  padding-right: 7%;
+  padding-bottom: 5%;
 }
 
 .everybody {
-  margin-top: 30%;
-  clear:both;
-  border: 2px solid black;
-
-  line-height: 350px;
-  text-align: center;
   background-image:url(../assets/everybody.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear:both;
+  color: #fdd2b4; /*salmon*/
+  font-size: 2em;
   height:350px;
+  text-align: center;
   width: 100%;
+}
+
+footer div{
+  float:left;
+  margin-left: 10%;
+  margin-top: 30px;
+  width:45%
+}
+
+footer h4, footer, p {
+  display: inline;
+}
+
+footer nav {
+  margin-right: 20%;
+  margin-top: 30px;
+  float:right;
+}
+
+footer ul{
+margin-top: 0;
 }
