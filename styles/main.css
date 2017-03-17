@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 
 main, footer{
-  background-color: #fdd2b4;
+  background-color: #fdd2b4; /*salmon*/
 }
 
 a{
   text-decoration: none;
-  /*color: #502202;*/
-  /*color: #502202;*/
+  font-family: "Indie Flower";
 }
 
 header a{
-  color: #fdd2b4;
+  color: #fdd2b4; /*salmon*/
+}
+
+a:not(header a){
+color: #6b2e03; /*brown*/
 }
 
 /*a:visited{
@@ -22,30 +26,23 @@ header a{
 }*/
 
 a:hover{
+  /*green*/
   color: #43c07b;
-  /*color: #59ba16;*/
-  /*color: #3c7d0f;*/
 }
+
 
 header {
   position: fixed;
   top: 0px;
   width: 100%;
   height: 5rem;
-  background-color: #6b2e03;
-  /*background-color: #cfdee8;*/
-  /*background-color: grey;*/
-  /*background-color: #fdd2b4;*/
-  color: #502202;
-  /*border: 2px solid red;*/
-
+  background-color: #6b2e03; /*brown*/
 }
 
 header h2 {
   margin-left: 6%;
   margin-top: 25px;
   float:left;
-
 }
 
 header nav {
@@ -56,7 +53,6 @@ header nav {
 header ul {
 margin: 0 ;
 list-style-type: none;
-
 }
 
 header li {
@@ -69,23 +65,28 @@ main {
 }
 
 .main-title  {
-  /*border: 2px solid black;*/
-  line-height: 450px;
-  text-align: center;
-
   background-image:url(http://inspirationseek.com/wp-content/uploads/2014/08/Orange-Maine-Coon-Cat-Photography.jpg);
 
-  /*background-image:url(../assets/hero.jpg);*/
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fdd2b4;
+  font-family: "Indie Flower";
+  font-size: 2.5em;
   height:450px;
+  line-height: 350px;
+  text-align: center;
   width: 100%;
 }
 
+.popular-posts {
+  color: #6b2e03; /*brown*/
+}
+
 .popular-posts h2 {
-  text-align: center;
   padding-top: 3%;
+  text-align: center;
+
 }
 
 .popular-posts article {
@@ -116,6 +117,7 @@ position: absolute;
 right:20%;
 width: 50%;
 bottom: 10%;
+
 }
 
 
